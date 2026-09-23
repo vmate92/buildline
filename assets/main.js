@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const form=document.querySelector("#quote-form");if(form){form.addEventListener("submit",e=>{e.preventDefault();const note=form.querySelector(".form-note");note.textContent="Köszönjük. Az űrlap frontend oldalon működik; az éles beküldéshez backend/form endpoint csatlakoztatása szükséges.";note.setAttribute("role","status");})}});
